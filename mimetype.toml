@@ -1,0 +1,22 @@
+[class]
+
+text_default = [
+    {command = "nvim", fork = false, slient = true, confirm_exit=false}
+]
+
+
+[extension]
+toml.inherit = "text_default"
+yaml.inherit = "text_default"
+md.inherit = "text_default"
+txt.inherit = "text_default"
+conf.inherit = "text_default"
+
+
+[mimetype]
+
+[mimetype.text]
+inherit = "text_default"
+
+[mimetype.plain]
+inherit = "text_default"
